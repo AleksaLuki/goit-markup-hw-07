@@ -1,4 +1,6 @@
 .about-us {
+  @include container; 
+  
     padding-bottom: 94px;
   }
   .about-title {

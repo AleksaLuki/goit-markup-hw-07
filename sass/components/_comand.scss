@@ -1,4 +1,6 @@
 .comand-container {
+  @include container;
+  
     display: block;
   }
   .comand {

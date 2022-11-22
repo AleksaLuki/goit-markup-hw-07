@@ -1,4 +1,6 @@
 .list-our {
+  @include container;  
+  
     padding-top: 94px;
     padding-bottom: 94px;
   }
