@@ -1,3 +1,17 @@
+/* body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
 h1,
 h2,
 h3,
@@ -14,19 +28,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-.container {
-  width: 1200px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-.header-container {
-  display: flex;
-  align-items: center;
-}
-body {
-  font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
-}
 .link {
   text-decoration: none;
 }
@@ -37,9 +38,11 @@ ul {
   --brand-color: #2196f3;
   --text-color: #212121;
   --general-color: #ffffff;
-}
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+} */
 /*HEADER*/
-.header {
+/* .header {
   background-color: #ffffff;
   border-bottom: 1px solid #ececec;
 }
@@ -72,7 +75,7 @@ ul {
   align-items: center;
   margin-right: 318px;
 }
-.auth-nav-list {
+.contacts-list {
   display: flex;
   margin-right: auto;
   align-items: center;
@@ -186,17 +189,23 @@ ul {
 .header-tel-link:focus {
   fill: var(--brand-color);
   color: var(--brand-color);
-}
+} */
 /*HERO*/
 
-.hero {
+/* .hero {
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
   background: #2f303a;
-}
-.hero {
+} */
+/* .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #2f303a;
+
   max-width: 1600px;
   height: 600px;
   background-position: center;
@@ -204,7 +213,7 @@ ul {
   background-size: cover;
   outline: 1px solid black;
   background-image: linear-gradient(
-      /* to right */ rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/newphoto.jpg);
@@ -218,8 +227,8 @@ ul {
   text-align: center;
   max-width: 696px;
   margin: 0 auto 30px;
-}
-.main-btn.btn {
+} */
+/* .hero-btn {
   display: inline-block;
   padding: 10px 32px;
   cursor: pointer;
@@ -240,15 +249,15 @@ ul {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.btn:hover,
-.btn:focus {
+} */
+/* .hero-btn:hover,
+.hero-btn:focus {
   background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 
 /*LIST-OUR*/
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -258,8 +267,8 @@ ul {
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
-}
-.list-our {
+} */
+/* .list-our {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -298,11 +307,11 @@ ul {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: #757575;
-}
+} */
 
 /*ABOUT-US*/
 
-.about-us {
+/* .about-us {
   padding-bottom: 94px;
 }
 .about-title {
@@ -350,10 +359,10 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
+} */
 /*COMAND*/
 
-.comand-container {
+/* .comand-container {
   display: block;
 }
 .comand {
@@ -438,11 +447,11 @@ ul {
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* CLIENTS */
 
-.our-clients {
+/* .our-clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -489,11 +498,11 @@ ul {
 .clients__link:focus {
   fill: #2196f3;
   border: 1px solid #2196f3;
-}
+} */
 
 /*FOOTER*/
 
-.page-footer {
+/* .page-footer {
   background: #2f303a;
   padding: 60px 0;
   height: 252px;
@@ -653,11 +662,11 @@ address {
 .footer-form-btn:hover,
 .footer-form-btn:focus {
   background-color: #188ce8;
-}
+} */
 
 /* MODAL WINDOW */
 
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -851,11 +860,11 @@ address {
 .form-btn:hover,
 .form-btn:focus {
   background-color: #188ce8;
-}
+} */
 
 /*PORTFOLIO*/
 
-.portfolio {
+/* .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -894,10 +903,10 @@ address {
   background-color: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /*OUR WORK*/
-.portfolio-list {
+/* .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -976,4 +985,4 @@ address {
 .card-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
